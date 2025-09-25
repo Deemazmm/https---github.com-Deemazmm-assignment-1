@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deema Almousa | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<!-- this is the header which shows the navigation bar -->
+  <header>
+    <div class="logo">MY PORTFOLIO</div>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <main>
+    <!-- this shows the first part of the website -->
+    <section id="home" class="intro">
+      <div class="intro-content">
+        <h1 id="greeting"></h1>
+        <h1>Welcome to Deema Almousa's Portfolio ! </h1>
+        <p>Junior Software Engineering Student at KFUPM | Passionate about Hackathons & Volunteering</p>
+      </div>
+    </section>
+    
+
+        <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="about">
+        <div class="profile-pic">
+          <img src="assets/images/PFP.png" alt="Profile Picture">
+        </div>
+        <div class="about-details">
+          <h2>About Me</h2>
+          <p>
+            I’m Deema Almousa, a Software Engineering student at KFUPM. I like coding, learning new skills, and working with others on projects. I often join hackathons because they push me to be creative and solve problems in different ways. I also enjoy volunteering, which helps me grow and give back to the community.
+          </p>
+        </div>
+      </div>
+    </section>
+
+        <!--projects section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p>Here are some of my projects I worked on:</p>
+    
+    <!-- LOGICHEM Project -->
+      <div class="projects-container">
+        <div class="project">
+          <img src="assets/images/Screenshot 1447-04-01 at 4.26.58 PM.png" alt="Logichem Project" />
+          <h3>Logichem</h3>
+          <p>Logichem is a smart platform that connects companies with extra chemical waste to others that can reuse it.
+            It makes waste useful again instead of being thrown away, it also helps companies save money, reduces pollution, and supports a cleaner environment.
+            </p>
+        </div>
+        
+        <!-- Connect Project -->
+        <div class="project">
+          <img src="assets/images/iconImage.png" alt="Connect Project" />
+          <h3>Connect</h3>
+          <p>Connect is a social networking app that helps people build and grow their relationships, where users can share updates , grow their network and post their thoughts.</p>
+        </div>
+      </div>
+    </section>
+    
+        <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out by filling out this form:</p>
+    
+      <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name" ><br><br>
+    
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Your email" ><br><br>
+    
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Your message" ></textarea><br><br>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

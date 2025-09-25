@@ -1,0 +1,122 @@
+/* edit appearance of body text */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* (intro section)  */
+.intro {
+  height: 100vh; 
+  display: flex; /* Flexbox to center content */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://cdn.vectorstock.com/i/500p/74/72/falling-binary-matrix-background-vector-34057472.jpg");
+}
+
+
+/* White box for text */
+.intro-content {
+  background: rgba(255, 255, 255, 0.85); /* a bit transparent white background */
+  padding: 2rem 3rem;
+  border-radius: 12px; /* Rounded corners */
+}
+
+/* style text inside intro content */
+.intro-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro-content p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+#greeting {
+  font-size: 2rem;         
+  font-weight: bold;         
+  color: #030f15;          
+}
+
+
+
+
+/* Header layout */
+header {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+/* editing the text (MY PORTFOLIO) */
+header .logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar a  {
+  margin-left: 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #111;
+}
+
+/* ABOUT SECTION */
+.about {
+  display: flex; /* this makes the image + text  side by side */
+  gap: 2rem; /* space between text and image */
+}
+
+/* edit the image size and make it circular */
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+
+/* edit what's inside project + contact sections */
+.section {
+  background: rgba(225, 238, 243, 0.85); 
+  padding: 2rem;                       
+  margin: 2rem auto;                  
+  max-width: 900px;                     
+  border-radius: 12px;                  
+}
+
+
+/* edit whats in the project section */
+.projects-container{
+  display: flex; /* Layout project  side by side */
+  gap: 4rem;                
+  justify-content: center;  
+  margin-top: 2rem;
+}
+
+.project {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  max-width: 400px;      
+  text-align: center;
+}
+
+.project img {
+  max-width: 80%;
+  border-radius: 8px;
+}
+
+/* CONTACT FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
